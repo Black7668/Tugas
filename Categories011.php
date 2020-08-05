@@ -51,7 +51,7 @@ class Categories011 extends CI_controller {
 		$data['judul'] = 'Detail Data Categories';
 		$data['categories011'] = $this->Categoriesmodel_011->getCategoriesById($id);
 		$this->load->view('templates011/header', $data);
-		$this->load->view('categories011/detail', $data);
+		$this->load->view('categories011/detai', $data);
 		$this->load->view('templates011/footer');
 	} 
 
